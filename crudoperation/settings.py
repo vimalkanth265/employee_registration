@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'crudoperation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'CRUD_OPERATIONS' ,
+        'NAME':'DATABASE NAME' ,
         'USER':'postgres',
-        'PASSWORD': 'vijay@17',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432'
     }
